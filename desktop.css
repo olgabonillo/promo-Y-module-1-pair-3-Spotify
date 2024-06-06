@@ -6,25 +6,47 @@
 
 .header {
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+
 }
 
 .logo {
-    width: 200px;
+    width: 100px;
 }
 
-.nav {
-    display: inline-block;
-    margin-left: 400px;
+.lista {
+color: white;
+display: flex;
+list-style-type: none;
+justify-content: space-between;
+
 }
 
-.links {
-    display: inline-block;
+.lista-1 {
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold;
+
+
+
+
+}
+
+.blue {
+    height: 50vh;
+    background-color: rgb(61, 132, 213);
+    background-image: url(./images/premium_dancer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 400px;
+}
+
+.titulo-1 {
     color: white;
-  
-}
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-.links a {
-    text-decoration: none;
-    color: white;
 }
-
