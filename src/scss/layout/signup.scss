@@ -1,10 +1,31 @@
 h2 {
     text-align: center;
+    font-family: $font-button;
 }
 
-body {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.title-formulario {
+    font-family: $font-button;
+}
+
+.icon-spot {
+    // width: 40px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.boton-fb {
+    background-color: rgb(38, 132, 210);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    
+}
+
